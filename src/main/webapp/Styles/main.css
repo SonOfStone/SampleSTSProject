@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+
+/*
+#fafdcb - tan
+#b3d0ff - ultra-light blue
+#aee7e8 - light blue
+#28c3d4 - medium blue
+#248ea9 - blue
+*/
+
+html, body{
+	background-color: #b3d0ff;
+	height: 100%;
+}
+
+.header{
+	background-color: #b3d0ff;
+
+}
+
+/* navbar stuff */
+.navbar{
+	background-color: #b3d0ff;
+	border-bottom-style:solid;
+	border-bottom-color:#248ea9;
+	border-bottom-width: medium;
+	margin-bottom: 10px;
+}
+
+.nav-link{
+	color: #248ea9;
+	text-align: center;
+}
+
+.btn-primary{
+	background-color: #248ea9;
+	border-color: #248ea9;
+}
+
+/* footer stuff */
+.page-footer{
+	text-align: right;
+	margin-right: 20px;
+}
