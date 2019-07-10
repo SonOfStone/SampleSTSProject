@@ -13,6 +13,7 @@ import com.revature.util.ConnectionFactory;
 
 public class RequestRepositoryImpl implements RequestRepository{
 
+	//inserts a submitted request form to the database
 	@Override
 	public void insertIntoRequests(ReimburseReq reimburseReq) {
 		Connection conn = null;
